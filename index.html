@@ -1,28 +1,351 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-  <title>JavaScript Quiz App</title>
-  <link rel="stylesheet" href="styles.css"> 
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPU EduVista</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+<body>
 
-<body style="background-image: url('bg-image.jpg');">
+    <nav>
+        <img src="images/lo.jpeg" alt="">
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="#features">Blog</a></li>
+                <li><a href="#course">Courses</a></li>
+                <li><a href="#experts">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <div class="container">
-    <h1>Quiz App</h1>
-    
-    <div id="quiz"></div>
-    
-    <div id="result" class="result"></div>
-    
-    <button id="submit" class="button">Submit</button>
-    <button id="retry" class="button hide">Retry</button>
-    <button id="showAnswer" class="button hide">Show Answer</button>
+    <section id="home">
+        <h2>Transforming India Transforming Education</h2>
+        <p class="para">Through 'Transforming India by Transforming Education', we seek to revive the glory of the
+            ancient Indian
+            education system. By providing an academic ambience, innovative pedagogy of global significance, we prepare
+            our students to succeed in a highly competitive professional environment. Having created a strong
+            international presence, LPU is poiresised to become a Centre of Excellence in Academics and Research and be
+            listed among the top 200 universities of the world by 2025.</p><br>
+        <div class="founder">Founder Chancellor</div><br>
+        <div class="dr">DR. ASHOK KUMAR MITTAL</div><br>
+        <div class="btn">
+            <a class="blue" href="#">Learn More</a>
+            <a class="yellow" href="#">Visit Courses</a>
+        </div>
+    </section>
 
-  </div>
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Lovely Professional University (LPU) offers over 150 programmes in 40+ disciplines to students at the
+            Diploma, Undergraduate, Graduate, and Doctoral levels. Explore and select the Programme of your choice to
+            know the detailed information.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>LPU Scholarship scheme upto Rs. 6.8 Lac per student.<br>Students have been awarded with scholarship
+                    worth Rs. 100+ crores in last year only.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-file-certificate"></i>
+                <h3>Online Courses</h3>
+                <p>In today's competitive environment, it's always better to be up to date. However, when we are a
+                    working professional, things get tough, but not anymore, LPU online comes to the rescue! One can
+                    attend lectures on weekends with one of the finest faculties.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global Certification</h3>
+                <p>LPU is a globally connected university, working with the top universities across the world to provide
+                    a truly global experience to students. University has developed a series of international study
+                    programs with partner universities which instils a sense of global citizenship in the students and
+                    enables them to be competitive in an increasingly "flat" world.</p>
+            </div>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <section id="course">
+        <h1>Our Popular Courses</h1>
+        <p>Program your future today… script the world of tomorrow! Computer Science and Engineering Discipline
+            encourages all-around development through industry adapted curriculum focusing on enhancing both technical
+            skills and soft skills.</p>
+        <div class="course-box">
+            <div class="courses">
+                <img src="images/course1.png" alt="">
+                <div class="details">
+                    <span>Updates 01/11/2023</span>
+                    <h5>Btech Cse</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(532)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    &#8377. 1200000 -
+                </div>
+            </div>
+            <div class="courses">
+                <img src="images/course6.png" alt="">
+                <div class="details">
+                    <span>Updates 01/11/2022</span>
+                    <h5>Masters Of Computer Application</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span>(1012)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    &#8377. 30999/-
+                </div>
+            </div>
+            <div class="courses">
+                <img src="images/course2.png" alt="">
+                <div class="details">
+                    <span>Updates 1/11/2023</span>
+                    <h5>Masters of Business Administration</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(936)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    &#8377. 799999/-
+                </div>
+            </div>
+            <div class="courses">
+                <img src="images/course9.png" alt="">
+                <div class="details">
+                    <span>Updates 01/11/2023</span>
+                    <h5>Aerospace Engineering</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-empty"></i>
+                        <span>(702)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    &#8377. 699999/-
+                </div>
+            </div>
+            <div class="courses">
+                <img src="images/course4.png" alt="">
+                <div class="details">
+                    <span>Updates 01/11/2021</span>
+                    <h5>BBA</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span>(496)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    &#8377. 318999/-
+                </div>
+            </div>
+            <div class="courses">
+                <img src="images/course7.png" alt="">
+                <div class="details">
+                    <span>Updates 01/11/2022</span>
+                    <h5>Fashion Technology</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-empty"></i>
+                        <span>(672)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    &#8377. 422999/-
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="registration">
+        <div class="reminder">
+            <p>Get 30% scholarship in each course</p>
+            <h1>Register To Get It</h1>
+            <div class="time">
+                <div class="date">
+                    18 <br> Days
+                </div>
+                <div class="date">
+                    21 <br> Hours
+                </div>
+                <div class="date">
+                    47 <br> Minutes
+                </div>
+                <div class="date">
+                    19 <br> Seconds
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <h3>Create Free Account Now!</h3>
+            <input type="text" placeholder="Name" name="name" id="name">
+            <input type="text" placeholder="Email Address" name="email" id="email">
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone">
+            <div class="btn">
+                <a class="yellow" href="#" onclick="validateForm()">Submit Form</a>
+            </div>
+        </div>
+        
+        <script>
+        function validateForm() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+        
+            if (name.trim() === "") {
+                alert("Please enter your name");
+                return;
+            }
+        
+           
+            if (email.indexOf("@") === -1) {
+                alert("Please enter a valid email address");
+                return;
+            }
+        
+            
+            if (!/^\d{10}$/.test(phone)) {
+                alert("Please enter a valid 10-digit phone number");
+                return;
+            }
+        
+            
+            alert("Form submitted successfully!");
+          
+        }
+        </script>
+    </section>        
+
+    <section id="experts">
+        <h1>Community Experts</h1>
+        <p>LPU students are deeply engaged with community experts, projects and local engagenment initiatives.</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="images/profile1.png" alt="">
+                <h4>Dr. Ashok Kumar Mittal</h4>
+                <p>Founder Chancellor</p><br>
+                <div class="profile-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/profile2.png" alt="">
+                <h4>Mrs. Jyoti Batra</h4>
+                <p></p>Ass. Pro.</p><br>
+                <div class="profile-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro.png" alt="">
+                <h4>Rashmi Mittal </h4>
+                <p>Founder Chancellor</p><br>
+                <div class="profile-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/profile1.png" alt="">
+                <h4>Dr. Ashok Kumar Mittal</h4>
+                <p>Founder Chancellor</p><br>
+                <div class="profile-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Admissions</h3>
+            <ul>
+                <li>Admissions 2023-24</li>
+                <li>International Admissions 2023-24</li>
+                <li>Distance Education Admissions</li>
+                <li>Scholarships</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Media</h3>
+            <ul>
+                <li>TV Ads</li>
+                <li>Media Coverage</li>
+                <li>Social Media</li>
+                <li>Newspaper Ads</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Important Links</h3>
+            <ul>
+                <li>Pay Fee Online</li>
+                <li>Residential Facilities</li>
+                <li>Sports Compititions</li>
+                <li>Counselling</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Other Links</h3>
+            <ul>
+                <li>Events</li>
+                <li>Social Services</li>
+                <li>Examinations</li>
+                <li>Academic Calender</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send our promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;;2023 All rights reserved | This template is made by Mahesh, Chandan Kumar and Vikash
+                Kumar</p>
+            <div class="profile-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
 </body>
-</html>
+
+</html
